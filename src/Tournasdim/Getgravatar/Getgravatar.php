@@ -94,7 +94,7 @@ class Getgravatar
 
 	if(isset($email)) $this->email = $this->validate('email', $email) ; 
 	$querystring =  $this->generateQuery($size , $randomize ) ;
-	$urlType = \Request::secure() ? static::HTTPS_URL : static::HTTP_URL ; 
+	$urlType = static::HTTPS_URL; 
 	$url = $urlType  . $querystring ; 
 	return  '<img src="' . $url . '"" />' ; 
 	
