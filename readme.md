@@ -13,7 +13,7 @@ It is assumed that you already have a working Laravel 4 project . Basic knowledg
 {	
 		"require": {
 		"laravel/framework": "4.0.*" , 
-		"tournasdim/laravel4-getgravatar": "dev-master" 
+		"ascension/laravel4-getgravatar": "dev-master" 
 		}	
 	}
 ```
